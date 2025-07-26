@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Netflix" class="logo">
+            </div>
+            <div class="nav-menu">
+                <div class="nav-item">
+                    <select class="language-select">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+                <div class="nav-item">
+                    <button class="signin-btn">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <img src="images/IN-en-20250714-TRIFECTA-perspective_5acb7337-c372-45ec-ae12-ddb110e6ad78_large.jpg" alt="Netflix Background" class="hero-image">
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Unlimited movies, TV shows, and more</h1>
+                <p class="hero-subtitle">Watch anywhere. Cancel anytime.</p>
+                <p class="hero-description">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            
+            <div class="signup-form">
+                <div class="email-container">
+                    <input type="email" placeholder="Email address" class="email-input">
+                    <button class="get-started-btn">
+                        Get Started
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <div class="feature-content">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="feature-media">
+                <div class="tv-container">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="TV">
+                    <video autoplay muted loop class="tv-video">
+                        <source src="videos/tv-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature reverse">
+            <div class="feature-content">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="feature-media">
+                <div class="mobile-container">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="Mobile">
+                    <div class="download-animation">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="Boxshot">
+                        <div class="download-text">
+                            <div class="download-title">Stranger Things</div>
+                            <div class="download-subtitle">Downloading...</div>
+                        </div>
+                        <div class="download-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Questions? Call 1-844-505-2993</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Redeem Gift Cards</a>
+                <a href="#">Buy Gift Cards</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Legal Notices</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
